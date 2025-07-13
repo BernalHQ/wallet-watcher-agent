@@ -1,0 +1,10 @@
+name: Wallet Watcher
+description: Agente de IA que analiza la wallet de un usuario y muestra los balances actuales de tokens utilizando datos on-chain.
+entry_point: agent/index.js
+discoverable: true
+tags:
+  - DeFi
+  - Wallet
+  - Blockchain
+  - Portfolio
+  - Crypto
