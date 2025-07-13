@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "fetch agent",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node --env-file=.env agent/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/BernalHQ/wallet-watcher-agent/issues"
   },
-  "homepage": "https://github.com/BernalHQ/wallet-watcher-agent#readme"
+  "homepage": "https://github.com/BernalHQ/wallet-watcher-agent#readme",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0"
+  }
 }
