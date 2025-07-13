@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env agent/index.js",
+    "start": "node --env-file=.env agent/index.js 0xcB1C1FdE09f811B294172696404e88E658659905",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
